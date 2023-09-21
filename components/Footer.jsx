@@ -14,12 +14,12 @@ export const Footer = () => {
                     </li>
                     <div className='flex items-center space-x-5 text-lg'>
                         <li className='flex space-x-3'>
-                            <Link href={'mailto:comercioexterior@conallison.com'}>
+                            <Link href={'mailto:comercioexterior@conallison.com'} target='_blank'>
                                 <Image src={'/assets/email-icon.svg'} width={30} height={30} loading='lazy' alt='email-icon' />
                             </Link>
                         </li>
                         <li className='flex space-x-3'>
-                            <Link href={'https://wa.me/5491122974908'}>
+                            <Link href={'https://wa.me/5491122974908'} target='_blank'>
                                 <Image src={'/assets/wpp-icon.png'} width={30} height={30} loading='lazy' alt='whatsapp-icon' />
                             </Link>
                         </li>
