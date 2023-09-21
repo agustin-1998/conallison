@@ -4,7 +4,7 @@ import React from 'react'
 const Body = () => {
     return (
         <>
-            <section className='max-w-5xl mx-auto mt-6 sm:mt-10 mb-[27px]'>
+            <section className='max-w-5xl mx-auto mt-6 sm:mt-9 mb-[27px]'>
                 <div className='flex flex-col justify-center items-center space-y-5 px-3 lg:px-0'>
                     <figure>
                         <Image 
