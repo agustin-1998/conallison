@@ -7,7 +7,7 @@ const Body = () => {
             <div className='flex flex-col justify-center items-center flex-1 space-y-5 px-3 lg:px-0 mx-auto mt-6 sm:mt-9 mb-9'>
                 <figure>
                     <Image 
-                        src="/assets/muge-2.jpg"
+                        src="/assets/poster-1.webp"
                         width={700} 
                         height={700}  
                         alt='muge-logo-1' 
@@ -17,7 +17,7 @@ const Body = () => {
                 </figure>
                 <figure>
                     <Image 
-                        src="/assets/muge-1.jpg"
+                        src="/assets/poster-2.webp"
                         width={700} 
                         height={700} 
                         alt='muge-logo-2' 
