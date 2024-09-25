@@ -12,7 +12,17 @@ const Body = () => {
                         height={700}  
                         alt='muge-logo-1' 
                         loading='lazy' 
-                        quality={20} 
+                        quality={60} 
+                    />
+                </figure>
+                <figure>
+                    <Image 
+                        src="/assets/poster-3.webp"
+                        width={700} 
+                        height={700} 
+                        alt='muge-logo-2' 
+                        loading='lazy' 
+                        quality={60}
                     />
                 </figure>
                 <figure>
@@ -20,19 +30,9 @@ const Body = () => {
                         src="/assets/poster-2.webp"
                         width={700} 
                         height={700} 
-                        alt='muge-logo-2' 
-                        loading='lazy' 
-                        quality={20}
-                    />
-                </figure>
-                <figure>
-                    <Image 
-                        src="/assets/muge-3.jpg"
-                        width={700} 
-                        height={700} 
                         alt='muge-logo-3' 
                         loading='lazy' 
-                        quality={20}
+                        quality={60}
                     />
                 </figure>
             </div>
