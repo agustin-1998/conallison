@@ -10,7 +10,7 @@ const Body = () => {
                         src={'/assets/muge-2.jpg'} 
                         width={700} 
                         height={700}  
-                        alt='conallison-logo-1' 
+                        alt='muge-logo-1' 
                         loading='lazy' 
                         quality={20} 
                     />
@@ -20,7 +20,7 @@ const Body = () => {
                         src={'/assets/muge-1.jpg'} 
                         width={700} 
                         height={700} 
-                        alt='conallison-logo-2' 
+                        alt='muge-logo-2' 
                         loading='lazy' 
                         quality={20}
                     />
@@ -30,7 +30,7 @@ const Body = () => {
                         src={'/assets/muge-3.jpg'} 
                         width={700} 
                         height={700} 
-                        alt='conallison-logo-3' 
+                        alt='muge-logo-3' 
                         loading='lazy' 
                         quality={20}
                     />
