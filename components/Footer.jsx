@@ -14,6 +14,11 @@ export const Footer = () => {
                     </li>
                     <div className='flex items-center space-x-5 text-lg'>
                         <li className='flex space-x-3'>
+                            <Link href={'https://www.muge.com.ar'} target='_blank'>
+                                <Image src={'/assets/cart.svg'} width={30} height={30} loading='lazy' alt='cart-icon' />
+                            </Link>
+                        </li>
+                        <li className='flex space-x-3'>
                             <Link href={'mailto:comercioexterior@conallison.com'}>
                                 <Image src={'/assets/email-icon.svg'} width={30} height={30} loading='lazy' alt='email-icon' />
                             </Link>
