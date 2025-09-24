@@ -12,7 +12,7 @@ export const Footer = () => {
                             <Image src={'/assets/muge.webp'} width={200} height={50} alt='conallison-logo' />
                         </Link>
                     </li>
-                    <div className='flex items-center space-x-5 text-lg'>
+                    <div className='flex items-center justify-center space-x-5 text-lg'>
                         <li className='flex space-x-3'>
                             <Link href={'https://www.muge.com.ar'} target='_blank'>
                                 <Image src={'/assets/cart.svg'} width={30} height={30} loading='lazy' alt='cart-icon' />
@@ -23,10 +23,21 @@ export const Footer = () => {
                                 <Image src={'/assets/email-icon.svg'} width={30} height={30} loading='lazy' alt='email-icon' />
                             </Link>
                         </li>
-                        <li className='flex space-x-3'>
-                            <Link href={'https://wa.me/5491122974908'} target='_blank'>
-                                <Image src={'/assets/wpp-icon.png'} width={30} height={30} loading='lazy' alt='whatsapp-icon' />
-                            </Link>
+                        <li className='flex items-center space-x-2'>
+                            <div className='flex items-center'>
+                                <Link href={'https://wa.me/5491122974908'} target='_blank' className='flex items-center space-x-1'>
+                                    <Image src={'/assets/wpp-icon.png'} width={25} height={25} loading='lazy' alt='whatsapp-department' />
+                                </Link>
+                            </div>
+                            <span className='text-xs text-gray-600'>Export Department</span>
+                        </li>
+                        <li className='flex items-center space-x-2'>
+                            <div className='flex items-center'>
+                                <Link href={'https://wa.me/5491123310789'} target='_blank' className='flex items-center space-x-1'>
+                                    <Image src={'/assets/wpp-icon.png'} width={25} height={25} loading='lazy' alt='whatsapp-sales' />
+                                </Link>
+                            </div>
+                            <span className='text-xs text-gray-600'>Export Sales</span>
                         </li>
                         <li className='flex space-x-3'>
                             <Link href={'https://www.instagram.com/Muge_carnes/'} className='text-black underline hover:text-blue-700' target='_blank'>
