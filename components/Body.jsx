@@ -12,7 +12,8 @@ const Body = () => {
                         height={700}  
                         alt='muge-logo-1' 
                         loading='lazy' 
-                        quality={60} 
+                        quality={75}
+                        style={{ height: 'auto', width: 'auto' }}
                     />
                 </figure>
                 <figure>
@@ -22,7 +23,8 @@ const Body = () => {
                         height={700} 
                         alt='muge-logo-2' 
                         loading='lazy' 
-                        quality={60}
+                        quality={75}
+                        style={{ height: 'auto', width: 'auto' }}
                     />
                 </figure>
                 <figure>
@@ -31,8 +33,9 @@ const Body = () => {
                         width={700} 
                         height={700} 
                         alt='muge-logo-3' 
-                        loading='lazy' 
-                        quality={60}
+                        loading='eager' 
+                        quality={75}
+                        style={{ height: 'auto', width: 'auto' }}
                     />
                 </figure>
             </div>

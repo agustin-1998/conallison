@@ -9,7 +9,7 @@ export const Footer = () => {
                 <ul className='max-w-5xl mx-auto flex flex-col items-center justify-center sm:justify-between sm:flex-row space-y-5 sm:space-y-0'>
                     <li>
                         <Link href={'http://muge.com.ar/'} target='_blank'>
-                            <Image src={'/assets/muge.webp'} width={200} height={50} alt='conallison-logo' />
+                            <Image src={'/assets/muge.webp'} width={480} height={192} alt='muge-logo' style={{ width: 'auto', height: 'auto', maxWidth: '200px' }} />
                         </Link>
                     </li>
                     <div className='flex items-center justify-center space-x-5 text-lg'>
@@ -23,7 +23,11 @@ export const Footer = () => {
                                 <Image src={'/assets/email-icon.svg'} width={30} height={30} loading='lazy' alt='email-icon' />
                             </Link>
                         </li>
-                      
+                        <li className='flex space-x-3 hover:border-b hover:border-b-black'>
+                            <Link href={'https://u.wechat.com/kEtsNUXP5vNeZ9lEl5GZKlY?s=2'} target='_blank'>
+                                <Image src={'/assets/wechat-icon.svg'} width={30} height={30} loading='lazy' alt='wechat-icon' />
+                            </Link>
+                        </li>
                         <li className='flex items-center space-x-2 hover:border-b hover:border-b-black'>
                             <div className='flex items-center'>
                                 <Link href={'https://wa.me/5491123310789'} target='_blank' className='flex items-center space-x-1'>

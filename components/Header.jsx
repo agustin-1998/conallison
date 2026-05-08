@@ -15,7 +15,7 @@ const Header = () => {
                         </li>
                         <li>
                             <Link href={'http://conallison.com/'} target='_blank'>
-                                <Image src={'/assets/muge.webp'} width={200} height={50}  alt='conallison-logo' loading='lazy' />
+                                <Image src={'/assets/muge.webp'} width={480} height={192} alt='muge-logo' loading='lazy' style={{ width: 'auto', height: 'auto', maxWidth: '200px' }} />
                             </Link> 
                         </li>
                     </ul>
