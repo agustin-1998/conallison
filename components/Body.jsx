@@ -39,7 +39,7 @@ const Body = () => {
                     />
                 </figure>
             </div>
-            <div className='flex justify-center mb-9'>
+            {/* <div className='flex justify-center mb-9'>
                 <figure>
                     <Image
                         src="/assets/qr-wechat.jpeg"
@@ -51,7 +51,7 @@ const Body = () => {
                         style={{ height: 'auto', width: 'auto' }}
                     />
                 </figure>
-            </div>
+            </div> */}
         </>
     )
 }
