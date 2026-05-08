@@ -23,11 +23,6 @@ export const Footer = () => {
                                 <Image src={'/assets/email-icon.svg'} width={30} height={30} loading='lazy' alt='email-icon' />
                             </Link>
                         </li>
-                        <li className='flex space-x-3 hover:border-b hover:border-b-black'>
-                            <Link href={'https://u.wechat.com/kEtsNUXP5vNeZ9lEl5GZKlY?s=2'} target='_blank'>
-                                <Image src={'/assets/wechat-icon.svg'} width={30} height={30} loading='lazy' alt='wechat-icon' />
-                            </Link>
-                        </li>
                         <li className='flex items-center space-x-2 hover:border-b hover:border-b-black'>
                             <div className='flex items-center'>
                                 <Link href={'https://wa.me/5491123310789'} target='_blank' className='flex items-center space-x-1'>

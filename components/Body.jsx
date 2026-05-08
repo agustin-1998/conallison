@@ -18,22 +18,35 @@ const Body = () => {
                 </figure>
                 <figure>
                     <Image 
-                        src="/assets/poster-3.webp"
+                        src="/assets/poster-2.webp"
                         width={700} 
                         height={700} 
                         alt='muge-logo-2' 
-                        loading='lazy' 
+                        loading='eager' 
                         quality={75}
                         style={{ height: 'auto', width: 'auto' }}
                     />
                 </figure>
                 <figure>
                     <Image 
-                        src="/assets/poster-2.webp"
+                        src="/assets/poster-3.webp"
                         width={700} 
                         height={700} 
                         alt='muge-logo-3' 
-                        loading='eager' 
+                        loading='lazy' 
+                        quality={75}
+                        style={{ height: 'auto', width: 'auto' }}
+                    />
+                </figure>
+            </div>
+            <div className='flex justify-center mb-9'>
+                <figure>
+                    <Image
+                        src="/assets/qr-wechat.jpeg"
+                        width={300}
+                        height={300}
+                        alt='qr-wechat'
+                        loading='lazy'
                         quality={75}
                         style={{ height: 'auto', width: 'auto' }}
                     />
